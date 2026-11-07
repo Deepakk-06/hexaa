@@ -330,6 +330,19 @@ Then open `PhoneTeleop.xcworkspace` in Xcode. (`PhoneTeleop` is the app's intern
 
 ---
 
+## Tested devices
+
+HEXA has been tested and works on both platforms:
+
+| Platform | Device | Status |
+|:---|:---|:---:|
+| iOS (ARKit) | iPhone 13 | ✅ Works |
+| Android (ARCore) | Samsung Galaxy A34 | ✅ Works |
+
+Other phones with ARKit or ARCore support should work too. If you try one, let us know.
+
+---
+
 ## Tech
 
 React Native 0.88 · Kotlin + ARCore · Swift + ARKit · Python (`websockets`, `numpy`, `pyserial`) · LeRobot · SO-101 URDF
