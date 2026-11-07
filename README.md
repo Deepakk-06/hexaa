@@ -350,6 +350,20 @@ Other phones with ARKit or ARCore support should work too. If you try one, let u
 
 ---
 
+## Acknowledgments
+
+HEXA stands on great open-source work. Thank you to:
+
+- **[SO-101 / SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100)** by TheRobotStudio and Hugging Face, for the robot arm design, CAD parts and URDF used here
+- **[LeRobot](https://github.com/huggingface/lerobot)** by Hugging Face, for robot control, calibration and the dataset format
+- **[onshape-to-robot](https://github.com/Rhoban/onshape-to-robot)**, which generated the arm's URDF
+- **Google ARCore** and **Apple ARKit**, for phone motion tracking
+- **[React Native](https://reactnative.dev)** by Meta, for the phone app
+- **[three.js](https://threejs.org)**, for the browser viewer
+- **websockets**, **NumPy** and **pySerial**, for the Python server
+
+---
+
 ## License
 
 HEXA's own code is released under the [MIT License](LICENSE). The SO-101 robot design files and other third-party libraries keep their original licenses.
