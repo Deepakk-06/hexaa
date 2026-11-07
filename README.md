@@ -341,6 +341,13 @@ HEXA has been tested and works on both platforms:
 
 Other phones with ARKit or ARCore support should work too. If you try one, let us know.
 
+### Hardware and software
+
+| Mode | Setup | Status |
+|:---|:---|:---:|
+| Hardware | Real SO-101 robot arm (`start --live`) | ✅ Works |
+| Software | Simulator + browser viewer (`start --sim`) | ✅ Works |
+
 ---
 
 ## Tech
