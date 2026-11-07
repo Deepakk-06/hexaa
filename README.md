@@ -350,6 +350,12 @@ Other phones with ARKit or ARCore support should work too. If you try one, let u
 
 ---
 
+## License
+
+HEXA's own code is released under the [MIT License](LICENSE). The SO-101 robot design files and other third-party libraries keep their original licenses.
+
+---
+
 ## Tech
 
 React Native 0.88 · Kotlin + ARCore · Swift + ARKit · Python (`websockets`, `numpy`, `pyserial`) · LeRobot · SO-101 URDF
