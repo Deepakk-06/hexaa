@@ -66,10 +66,10 @@ HEXA is that tool, and we are sharing it so other students and labs can do the s
 
 ```mermaid
 flowchart LR
-    A[Phone app<br/>Android or iOS] -- "pose over Wi-Fi<br/>(WebSocket, port 4443)" --> B[HEXA server<br/>Python]
-    B -- inverse kinematics<br/>+ safety limits --> C[SO-101 arm<br/>or simulator]
-    B -- optional --> D[(LeRobot dataset)]
-    B -- port 8080 --> E[Browser viewer]
+    A[Phone app Android or iOS] -- "pose over Wi-Fi (WebSocket, port 4443)" --> B[HEXA server Python]
+    B -- "inverse kinematics + safety limits" --> C[SO-101 arm or simulator]
+    B -- "optional" --> D[(LeRobot dataset)]
+    B -- "port 8080" --> E[Browser viewer]
 ```
 
 1. The phone tracks its own position and rotation (ARCore on Android, ARKit on iOS).
@@ -338,8 +338,10 @@ React Native 0.88 · Kotlin + ARCore · Swift + ARKit · Python (`websockets`, `
 
 <div align="center">
 
-**Built by Deepak**
+**Built by Deepak 🚀 · A M Likhitha · Chiranthan P**
 
 If HEXA helps you collect data or learn robotics, a ⭐ is appreciated.
 
 </div>
+
+<p align="center"><sub>Built by our team for research purposes. A work in progress.</sub></p>
