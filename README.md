@@ -103,7 +103,7 @@ flowchart LR
 
 ## What's in the download
 
-This repo holds **`HEXA-Team.zip`**. Unzip it and you get a folder called `EmberArm-Team` (the project's working name):
+This repo holds **`HEXA-Teleop.zip`**. Unzip it and you get a folder called `EmberArm-Team` (the project's working name):
 
 | Inside the zip | What it is |
 | --- | --- |
@@ -130,11 +130,11 @@ You need:
 
 ### 0. Download the project
 
-Click **`HEXA-Team.zip`** at the top of this page, then the download icon (**Download raw file**), and unzip it. Or from a terminal:
+Click **`HEXA-Teleop.zip`** at the top of this page, then the download icon (**Download raw file**), and unzip it. Or from a terminal:
 
 ```bash
-curl -L -o HEXA-Team.zip https://github.com/Deepakk-06/hexaa/raw/main/HEXA-Team.zip
-unzip -q HEXA-Team.zip
+curl -L -o HEXA-Teleop.zip https://github.com/Deepakk-06/hexaa/raw/main/HEXA-Teleop.zip
+unzip -q HEXA-Teleop.zip
 ```
 
 You now have the `EmberArm-Team` folder.
@@ -199,10 +199,10 @@ New-NetFirewallRule -DisplayName HEXA -Direction Inbound -Protocol TCP -LocalPor
 Set-NetFirewallHyperVVMSetting -Name '{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}' -DefaultInboundAction Allow
 ```
 
-Put `HEXA-Team.zip` in your Windows **Downloads** folder, open **Ubuntu** from the Start menu, and run:
+Put `HEXA-Teleop.zip` in your Windows **Downloads** folder, open **Ubuntu** from the Start menu, and run:
 
 ```bash
-sudo apt update && sudo apt install -y unzip python3-venv python3-pip && unzip -oq "$(ls /mnt/c/Users/*/Downloads/HEXA-Team.zip | head -1)" -d ~ && cd ~/EmberArm-Team/server && chmod +x emberarm.sh && ./emberarm.sh setup && ./emberarm.sh start --sim
+sudo apt update && sudo apt install -y unzip python3-venv python3-pip && unzip -oq "$(ls /mnt/c/Users/*/Downloads/HEXA-Teleop.zip | head -1)" -d ~ && cd ~/EmberArm-Team/server && chmod +x emberarm.sh && ./emberarm.sh setup && ./emberarm.sh start --sim
 ```
 
 (There is also a native `emberarm.bat` for Windows: `emberarm.bat setup --no-lerobot`, then `emberarm.bat start --sim`.)
